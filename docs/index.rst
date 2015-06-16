@@ -32,6 +32,7 @@ Get all information about the resources
 
     http://www.chain-project.eu/virtuoso/api/resources?keyword=SEEKED_KEYWORD&limit=MAX_NUMBER_OF_RESOURCES&offset=OFFSET
 
+
 - .. line-block:: RESPONSE (application/json)
 
     A collection of resources is represented as a JSON array of objects containing the information about the resources; a single resource is represented as a JSON object. All parameters are Dublin Core Metadata Elements (see http://dublincore.org/documents/dces/ and http://dublincore.org/documents/dcmi-terms/) except  the repository's parameters that include the information regarding the repository that contains the resource.
@@ -61,6 +62,7 @@ Get only authors, titles and id of the resources
 
     http://www.chain-project.eu/virtuoso/api/simpleResources?keyword=SEEKED_KEYWORD&limit=MAX_NUMBER_OF_RESOURCES&offset=OFFSET
 
+
 - .. line-block:: RESPONSE (application/json)
 
     A collection of resources is represented as a JSON array of objects containing   authors, titles and id about the resources.
@@ -80,6 +82,7 @@ Get all information about a single resource
 
   http://www.chain-project.eu/virtuoso/api/singleResource?id=ID_RESOURCE 
 
+
 - .. line-block:: RESPONSE (application/json)
 
     The response is represented as a JSON object containing all information about the single resource.
@@ -97,6 +100,7 @@ Get information from Google Scholar by a title
      as shown below:
 
      http://www.chain-project.eu/virtuoso/api/infoGS?title=SOURCE_TITLE
+
 
 - .. line-block:: RESPONSE (application/json)
 
