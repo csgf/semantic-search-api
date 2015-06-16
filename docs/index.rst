@@ -31,6 +31,7 @@ Get all information about the resources
      as shown below:
 
     http://www.chain-project.eu/virtuoso/api/resources?keyword=SEEKED_KEYWORD&limit=MAX_NUMBER_OF_RESOURCES&offset=OFFSET
+    
 
 
 - .. line-block:: RESPONSE (application/json)
@@ -61,6 +62,7 @@ Get only authors, titles and id of the resources
      as shown below:
 
     http://www.chain-project.eu/virtuoso/api/simpleResources?keyword=SEEKED_KEYWORD&limit=MAX_NUMBER_OF_RESOURCES&offset=OFFSET
+    
 
 
 - .. line-block:: RESPONSE (application/json)
@@ -80,7 +82,8 @@ Get all information about a single resource
    
   as shown below:
 
-  http://www.chain-project.eu/virtuoso/api/singleResource?id=ID_RESOURCE 
+  http://www.chain-project.eu/virtuoso/api/singleResource?id=ID_RESOURCE
+  
 
 
 - .. line-block:: RESPONSE (application/json)
@@ -100,6 +103,7 @@ Get information from Google Scholar by a title
      as shown below:
 
      http://www.chain-project.eu/virtuoso/api/infoGS?title=SOURCE_TITLE
+     
 
 
 - .. line-block:: RESPONSE (application/json)
