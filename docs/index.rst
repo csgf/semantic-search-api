@@ -66,7 +66,12 @@ Get only authors, titles and id of the resources
 
      as shown below:
 
-    http://www.chain-project.eu/virtuoso/api/simpleResources?keyword=SEEKED_KEYWORD&limit=MAX_NUMBER_OF_RESOURCES&offset=OFFSET
+    http://www.chain-project.eu/virtuoso/api/simpleResources?
+    keyword=SEEKED_KEYWORD
+    &
+    limit=MAX_NUMBER_OF_RESOURCES
+    &
+    offset=OFFSET
     
 
 
