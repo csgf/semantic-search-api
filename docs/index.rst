@@ -37,6 +37,7 @@ Get all information about the resources
     &
      offset=OFFSET
     
+    
 
 
 
@@ -74,6 +75,7 @@ Get only authors, titles and id of the resources
     limit=MAX_NUMBER_OF_RESOURCES
     &
     offset=OFFSET
+    
     
 
 
