@@ -31,16 +31,11 @@ Get all information about the resources
      as shown below:
 
     http://www.chain-project.eu/virtuoso/api/resources?
-    
-    keyword=SEEKED_KEYWORD
-    
+     keyword=SEEKED_KEYWORD
     &
-    
-    limit=MAX_NUMBER_OF_RESOURCES
-    
+     limit=MAX_NUMBER_OF_RESOURCES
     &
-    
-    offset=OFFSET
+     offset=OFFSET
     
 
 
