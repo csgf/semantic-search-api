@@ -39,6 +39,8 @@ Get all information about the resources
     
 
 
+
+
 - .. line-block:: RESPONSE (application/json)
 
     A collection of resources is represented as a JSON array of objects containing the information about the resources; a single resource is represented as a JSON object. All parameters are Dublin Core Metadata Elements (see http://dublincore.org/documents/dces/ and http://dublincore.org/documents/dcmi-terms/) except  the repository's parameters that include the information regarding the repository that contains the resource.
@@ -73,6 +75,8 @@ Get only authors, titles and id of the resources
     &
     offset=OFFSET
     
+
+
 
 
 - .. line-block:: RESPONSE (application/json)
