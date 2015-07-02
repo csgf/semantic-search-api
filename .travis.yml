@@ -1,0 +1,16 @@
+language: java
+
+jdk: openjdk6
+ 
+ 
+install:
+ ant test
+ 
+ 
+ 
+ notifications:
+  email:
+    recipients:
+        - giuseppina.inserra@ct.infn.it
+        - carla.carrubba@ct.infn.it
+        
