@@ -819,7 +819,7 @@ exists or setup the property manually. For example like this:
         <copyfiles files="${file.reference.jcl-over-slf4j-1.6.1.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
         <copyfiles files="${file.reference.slf4j-api-1.6.1.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
         <copyfiles files="${file.reference.logback-classic-0.9.28.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
-        <copyfiles files="${file.reference.util-taglib.jar}" todir="${build.web.dir}/WEB-INF/lib"/>
+<!--        <copyfiles files="${file.reference.util-taglib.jar}" todir="${build.web.dir}/WEB-INF/lib"/> -->
     </target>
     <target depends="init" if="dist.ear.dir" name="-clean-webinf-lib">
         <delete dir="${build.web.dir}/WEB-INF/lib"/>
