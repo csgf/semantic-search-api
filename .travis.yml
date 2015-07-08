@@ -3,7 +3,7 @@ language: java
 install:
  - ant test
  
- notifications:
+notifications:
   email:
     recipients:
         - giuseppina.inserra@ct.infn.it
