@@ -1,7 +1,5 @@
 language: java
 
-jdk: openjdk6
- 
  
 install:
  - ant test
