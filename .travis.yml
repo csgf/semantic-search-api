@@ -1,7 +1,7 @@
 language: java
  
 install:
- - ant -Dlibs.CopyLibs.classpath=/build/web/WEB-INF/lib/org-netbeans-modules-java-j2seproject-copylibstask.jar
+ - ant test
  
 notifications:
   email:
