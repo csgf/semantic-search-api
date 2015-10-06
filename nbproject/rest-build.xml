@@ -40,5 +40,6 @@
             </and>
         </condition>
     </target>
-    
+    <target name="generate-rest-config" depends="check-rest-config-props" if="do-generate-rest-config">
+       </target>    
 </project>
