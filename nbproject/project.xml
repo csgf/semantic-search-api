@@ -291,6 +291,11 @@
                     <file>${file.reference.javax.ws.rs.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
+                <library dirs="200">
+                    <file>${file.reference.org-netbeans-modules-java-j2seproject-copylibstask.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                
                 
             </web-module-libraries>
             <web-module-additional-libraries/>
