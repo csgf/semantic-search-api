@@ -54,7 +54,7 @@ Get all information about the resources
 
 
 
-Get only authors, titles and id of the resources
+Get only authors, titles, id and DOI of the resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - .. line-block:: REQUEST (HTTP method GET) 
@@ -83,7 +83,7 @@ Get only authors, titles and id of the resources
 
 - .. line-block:: RESPONSE (application/json)
 
-    A collection of resources is represented as a JSON array of objects containing   authors, titles and id about the resources.
+    A collection of resources is represented as a JSON array of objects containing   authors, titles, id and DOI about the resources.
 
   
 
@@ -127,8 +127,26 @@ Get information from Google Scholar by a title
     The response is represented as a JSON object containing any information from Google Scholar.
 
 
+Get information from Altmetric by a DOI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- .. line-block:: REQUEST (HTTP method GET) 
+
+     To do a request one must insert into the URL one parameter:
+    
+     1. **DOI**: is the parameter by which are retrieved all metrics from Altmetric.
+    
+     as shown below:
+     
+
+     http://www.chain-project.eu/virtuoso/api/infoAltmetric?doi=SOURCE_DOI
+     
 
 
+
+- .. line-block:: RESPONSE (application/json)
+
+    The response is represented by a JSON object containing all information from Altmetric.
 
 
 =============
